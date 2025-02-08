@@ -1,4 +1,7 @@
-def reverse(s):
-    return s[::-1] 
-user_input = input("Enter a string: ")
-print("Reversed string:", reverse(user_input))
+def reverse(s): 
+   res = "" 
+   for word in s.split(" "): 
+        res = word + " " + res 
+   return res
+c=str(input())
+print(reverse(c))
