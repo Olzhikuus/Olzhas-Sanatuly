@@ -28,3 +28,5 @@ for i in range(10):
         print("this number even ", a1[i])
     else:
         print("this number odd ", a1[i])
+
+
