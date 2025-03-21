@@ -8,3 +8,10 @@ difference = date2 - date1
 difference_in_seconds = difference.total_seconds()
 
 print(f"The difference between the two dates is {difference_in_seconds} seconds.")
+
+""""
+Создаем две даты → datetime(год, месяц, день, час, минута, секунда).
+Находим разницу → date2 - date1 (возвращает timedelta).
+Переводим разницу в секунды → .total_seconds().
+Выводим результат.
+"""
