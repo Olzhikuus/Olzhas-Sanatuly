@@ -4,3 +4,4 @@ def generate_26_files():
         with open(f"{letter}.txt", 'w') as file:
             pass
 generate_26_files()
+# Создаёт 26 пустых текстовых файлов по алфавиту (A.txt до Z.txt)

@@ -16,14 +16,15 @@ BLUE = (30, 144, 255)
 font = pygame.font.Font(None, 36)
 small_font = pygame.font.Font(None, 28)
 
-music_folder = "C:/Users/serik/Desktop/PP2/lab7"
+music_folder = "/Users/olzhikuus/Desktop/MyProject/lab7"
+
 
 songs = []
 current_index = 0 
 is_playing = False 
 
 def playlist_init():
-    for file in os.listdir("C:/Users/serik/Desktop/PP2/lab7"):
+    for file in os.listdir("/Users/olzhikuus/Desktop/MyProject/lab7"):
         file_name = os.fsdecode(file)
         ok = re.findall("mp3$", file_name)
         if ok:

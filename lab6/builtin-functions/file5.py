@@ -6,3 +6,4 @@ def true(elements):
     return all(elements)
 print(true((True, True, True)))
 print(true((True, False, True)))
+print(true(( 1, 2, 3)))

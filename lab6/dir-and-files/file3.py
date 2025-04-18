@@ -6,4 +6,5 @@ def test_path_details(path):
         print("Filename:", os.path.basename(path))
     else:
         print("Path does not exist.")
-test_path_details(r"C:\Users\serik\Desktop\myFile.docx")
+test_path_details(r"/Users/olzhikuus/Desktop/MyProject/lab6/dir-and-files/myFile.docx")
+# Проверяет, существует ли путь, и выводит директорию и имя файла

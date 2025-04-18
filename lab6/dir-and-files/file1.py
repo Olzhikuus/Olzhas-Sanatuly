@@ -7,3 +7,4 @@ def list_dir_files(path):
     print("Files:", files)
     print("All items:", items)
 list_dir_files("./")
+# Показывает все директории, файлы и элементы в указанной папке

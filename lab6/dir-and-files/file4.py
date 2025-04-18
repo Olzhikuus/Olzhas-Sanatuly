@@ -1,8 +1,8 @@
-import os
-def count_lines(file_path):
-    counter = 0
-    with open(file_path, 'r') as file:
-        for line in file:
-            counter += 1
-    return counter
-print("Number of lines:", count_lines(r"C:\Users\serik\Desktop\myFile.docx"))
+from docx import Document
+
+def count_docx_lines(file_path):
+    doc = Document(file_path)
+    return len(doc.paragraphs)
+
+print("Number of lines:", count_docx_lines("/Users/olzhikuus/Desktop/MyProject/lab6/dir-and-files/myFile.docx"))
+# Считает количество параграфов (строк) в .docx-файле
